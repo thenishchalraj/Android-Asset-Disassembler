@@ -1,6 +1,6 @@
-# Android-Asset-Decompiler
+# Android-Asset-Disassembler
 
-A bash script to decompile android zip, renaming the inside files according to size and moving them to the res file of app.
+A bash script to disassemble android zip, renaming the inside files according to size and moving them to the res file of app.
 
 ### Todo:
 - [ ] unzip the downloaded assets
@@ -15,10 +15,10 @@ Pick up anything you want and raise a PR.
 ### Steps of execution:
 
 * Clone the repository
-``` git clone git@github.com:thenishchalraj/Android-Asset-Decompiler.git```
+``` git clone git@github.com:thenishchalraj/Android-Asset-Disassembler.git```
 
 * Move into the directory
-``` cd Android-Asset-Decompiler```
+``` cd Android-Asset-Disassembler```
 
 * Change execution permission
 ``` chmod +x asset_disassembler.sh```
