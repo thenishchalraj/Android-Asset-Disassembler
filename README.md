@@ -3,11 +3,11 @@
 A bash script to disassemble android zip, renaming the inside files according to size and moving them to the res file of app.
 
 ### Todo:
-- [ ] unzip the downloaded assets
-- [ ] rename the folder assets
+- [x] unzip the downloaded assets
+- [x] rename the folder assets
 - [x] move the contents to res
 - [x] delete the zip and unzip
-- [ ] help for commands
+- [x] help for commands
 
 ### Contribution:
 Pick up anything you want and raise a PR.
@@ -23,5 +23,8 @@ Pick up anything you want and raise a PR.
 * Change execution permission
 ``` chmod +x asset_disassembler.sh```
 
-* Run with following command (as of 18/03/23)
-``` ./asset_disassembler.sh <path of downloaded resource> <path of res folder>```
+* Run the following command for help
+``` ./asset_disassembler.sh -h ```
+
+* Run the following command for disassembly
+``` ./asset_disassembler.sh /<path of downloaded resource>/ temporary_folder_to_be_created name_of_asset_to_rename /<path of res folder>/```
